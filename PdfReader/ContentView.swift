@@ -6,11 +6,30 @@
 //
 
 import SwiftUI
+import PDFKit
 
 struct ContentView: View {
+    let pdfDoc: PDFDocument
+    
+       init() {
+           //for the sake of example, we're going to assume
+           //you have a file Lipsum.pdf in your bundle
+           let url = Bundle.main.url(forResource: "ThePdf", withExtension: "pdf")!
+           pdfDoc = PDFDocument(url: url)!
+       }
+       
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack {
+                PDFKitView(showing: pdfDoc)
+//                PDFThumbnailRepresented(showing: pdfDoc)
+//                    .frame( height: 90, alignment: .leading)
+//                    .padding()
+            }
+            .navigationTitle("PDB Prep")
+            .navigationBarTitleDisplayMode(.inline)
+        }
     }
 }
 

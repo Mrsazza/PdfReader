@@ -11,6 +11,9 @@
 		FA66AD2D2810A8DE0040C0E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66AD2C2810A8DE0040C0E3 /* ContentView.swift */; };
 		FA66AD2F2810A8E10040C0E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA66AD2E2810A8E10040C0E3 /* Assets.xcassets */; };
 		FA66AD322810A8E10040C0E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA66AD312810A8E10040C0E3 /* Preview Assets.xcassets */; };
+		FA66AD3D2810AEF50040C0E3 /* PDFKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66AD3C2810AEF50040C0E3 /* PDFKitView.swift */; };
+		FA66AD3F2810C2AA0040C0E3 /* ThePdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA66AD3E2810C2AA0040C0E3 /* ThePdf.pdf */; };
+		FAE3B8242814793100EC5EFF /* PDFThumbnailRepresented.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE3B8232814793100EC5EFF /* PDFThumbnailRepresented.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		FA66AD2C2810A8DE0040C0E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA66AD2E2810A8E10040C0E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA66AD312810A8E10040C0E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA66AD3C2810AEF50040C0E3 /* PDFKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitView.swift; sourceTree = "<group>"; };
+		FA66AD3E2810C2AA0040C0E3 /* ThePdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ThePdf.pdf; sourceTree = "<group>"; };
+		FAE3B8232814793100EC5EFF /* PDFThumbnailRepresented.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFThumbnailRepresented.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				FA66AD2C2810A8DE0040C0E3 /* ContentView.swift */,
 				FA66AD2E2810A8E10040C0E3 /* Assets.xcassets */,
 				FA66AD302810A8E10040C0E3 /* Preview Content */,
+				FA66AD3C2810AEF50040C0E3 /* PDFKitView.swift */,
+				FA66AD3E2810C2AA0040C0E3 /* ThePdf.pdf */,
+				FAE3B8232814793100EC5EFF /* PDFThumbnailRepresented.swift */,
 			);
 			path = PdfReader;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA66AD3F2810C2AA0040C0E3 /* ThePdf.pdf in Resources */,
 				FA66AD322810A8E10040C0E3 /* Preview Assets.xcassets in Resources */,
 				FA66AD2F2810A8E10040C0E3 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA66AD3D2810AEF50040C0E3 /* PDFKitView.swift in Sources */,
 				FA66AD2D2810A8DE0040C0E3 /* ContentView.swift in Sources */,
 				FA66AD2B2810A8DE0040C0E3 /* PdfReaderApp.swift in Sources */,
+				FAE3B8242814793100EC5EFF /* PDFThumbnailRepresented.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
